@@ -16,7 +16,10 @@ end
 
 
 def select_value_and_count_of_most_prolific_species
-  "SELECT MAX(species), COUNT(species) FROM characters WHERE species = 'human';"
+  "SELECT MAX(species), COUNT(species) 
+  FROM characters 
+  ORDER BY LENGTH(species) DESC
+  LIMIT 1;"
 end
 
 def select_name_and_series_subgenres_of_authors
