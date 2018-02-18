@@ -28,6 +28,6 @@ name TEXT,
 species TEXT,
 motto TEXT,
 book_id INTEGER,
-series_id INTEGER
-character_id INTEGER
+series_id INTEGER,
+author_id INTEGER
 );
