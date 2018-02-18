@@ -17,6 +17,7 @@ name TEXT
 
 CREATE TABLE books (
 id INTEGER PRIMARY KEY
+year INTEGER,
 title TEXT,
 species TEXT,
 motto TEXT,
