@@ -18,11 +18,7 @@ name TEXT
 CREATE TABLE books (
 id INTEGER PRIMARY KEY
 year INTEGER,
-title TEXT,
-species TEXT,
-motto TEXT,
-series_id INTEGER,
-author_id INTEGER
+series_id INTEGER
 );
 
 CREATE TABLE characters (
