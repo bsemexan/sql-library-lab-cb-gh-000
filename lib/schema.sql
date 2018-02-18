@@ -7,5 +7,9 @@ CREATE TABLE subgenres (
 );
 
 CREATE TABLE authors (
+
+);
+
+CREATE TABLE books (
   
 );
