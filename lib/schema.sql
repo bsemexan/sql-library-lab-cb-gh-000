@@ -11,5 +11,9 @@ CREATE TABLE authors (
 );
 
 CREATE TABLE books (
+
+);
+
+CREATE TABLE characters (
   
 );
